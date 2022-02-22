@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input oninput="debounce(main,1000)" id="query" type="text" />
+  </body>
+</html>
+<script>
+  let count = 1;
+  const fetching = () => {
+    count++;
+    return `Dharmesh ${count}`;
+  };
+  function main() {
+    let data = fetching();
+    console.log(data);
+  }
+  let data;
+  const debounce = (fun, time) => {
+    let input = document.querySelector("#query").value;
+    if (data) clearTimeout(data);
+    data = setTimeout(() => {
+      fun();
+    }, time);
+  };
+</script>

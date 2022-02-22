@@ -1,0 +1,89 @@
+Intro
+eventloop
+generator function
+useEffect
+closure
+splice
+coding *4
+useState async or sync
+null
+undefined
+data types
+scope
+CSS positioning
+sorting an array of objects by Name
+& some more, I forget;
+1.Question around constructor function
+ 2.Adding a specific feature to an array as method
+3.What is EVent Delegation
+4.Defer vs async
+5.What is promise All
+6.What is Forward ref
+7.What is controlled component
+8.What is useEffect
+9.What is Reducer in redux
+
+ Variable hoisting?
+ Four es6 features
+ Prototype chain?
+ Closures
+ Given InputArr = [1, ‘a’, ‘b’, 5, 6], Implement InputArr.square() So that it return OutputArr = [1, ‘a’, ‘b’, 25, 36]
+ const sum = (a, b) => a + b
+sum(1, 2) // + operation
+sum(2, 3) // + operation
+sum(1, 2) // from cache
+
+ Implement a caching fn
+ Can change implementation of sum fn
+ Do Not polluting the global space
+ Implement a stopwatch in React JS
+
+
+ 1.closure
+2.constructor
+3.flattening the array
+4.find sum(1,2,3,4,......n)
+5 prototype chain
+6.currying and implementation
+ 7. Create a prototype of map function
+
+
+
+
+
+1. Mergedlists in a sorted order 
+where every element is greater 
+than the previous element.
+ Input: k = 3, n =  3
+list1 = 1->3->7->NULL
+list2 = 2->4->8->NULL
+list3 = 9->10->11->NULL
+
+Output: 1->2->3->4->7->8->9->10->11
+
+2.Implement the following function 
+ function reduce(array,iterator,initialvalue ){}
+    
+console.log( reduce ([1,2,3,4,5],(acc,item)=>acc+item)//15
+console.log( reduce ([1,2,3,4,5],(acc,item)=>acc+item,0)//15
+console.log( reduce ([1,2,3,4,5],(acc,item)=>acc*item)//120
+console.log( reduce ([1,2,3,4,5],(acc,item)=>acc*item,1)//120
+console.log( reduce ([1],(acc,item)=>acc-item,1)//0
+
+3. Databases that you know
+4. What are the things you like about Mongo DB
+
+
+"GeeksgForeeks"
+
+
+Find pairs and triplet with equal to sum , do with O(n) also
+Why React,
+REDUX, Context API, prop drilling.
+What is Node,
+What is Express,
+REST APi,
+HTTP verbs,
+Mongoose,
+MondoDb
+MySql NoSql
